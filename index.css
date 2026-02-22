@@ -1,0 +1,68 @@
+/* Custom slider styles for Player */
+input[type=range].slider-thumb {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  background: transparent;
+  cursor: pointer;
+}
+input[type=range].slider-thumb:focus {
+  outline: none;
+}
+input[type=range].slider-thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #d4af37;
+  border: 2px solid #fff;
+  box-shadow: 0 0 2px #0008;
+  transition: background 0.2s;
+}
+input[type=range].slider-thumb:active::-webkit-slider-thumb {
+  background: #fff;
+}
+input[type=range].slider-thumb::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #d4af37;
+  border: 2px solid #fff;
+  box-shadow: 0 0 2px #0008;
+  transition: background 0.2s;
+}
+input[type=range].slider-thumb:active::-moz-range-thumb {
+  background: #fff;
+}
+input[type=range].slider-thumb::-ms-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #d4af37;
+  border: 2px solid #fff;
+  box-shadow: 0 0 2px #0008;
+  transition: background 0.2s;
+}
+input[type=range].slider-thumb:active::-ms-thumb {
+  background: #fff;
+}
+input[type=range].slider-thumb::-webkit-slider-runnable-track {
+  height: 8px;
+  border-radius: 4px;
+}
+input[type=range].slider-thumb::-ms-fill-lower {
+  background: transparent;
+}
+input[type=range].slider-thumb::-ms-fill-upper {
+  background: transparent;
+}
+input[type=range].slider-thumb:focus::-webkit-slider-thumb {
+  outline: 2px solid #d4af37;
+}
+input[type=range].slider-thumb:focus::-ms-thumb {
+  outline: 2px solid #d4af37;
+}
+input[type=range].slider-thumb:focus::-moz-range-thumb {
+  outline: 2px solid #d4af37;
+}
